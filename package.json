@@ -12,7 +12,8 @@
     "url": "https://github.coventry.ac.uk/304CEM-2021SEPJAN/We-Sell-Houses-Backend.git"
   },
   "dependencies": {
-    "express":"*"
+    "express":"*",
+    "dotenv": "^8.2.0"
   },
   "author": "Rishiketh",
   "license": "ISC",
@@ -21,7 +22,6 @@
     "bcrypt": "^5.0.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^26.5.3",
     "joi": "^17.2.1",
