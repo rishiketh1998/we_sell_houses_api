@@ -18,12 +18,12 @@ app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({limit: '50mb', extended: true}));
 app.use(cors())
 app.use(cookieParser())
-app.use('/api/v1/users', users)
-app.use('/api/v1/login', login)
-app.use('/api/v1/logout', logout)
-app.use('/api/v1/properties', properties)
-app.use('/api/v1/messages', messages)
-app.use('/api/v1/areaProperties', areaProperties)
+app.use(['/api/v1/users','/proxy/api/v1/users'], users)
+app.use(['/api/v1/login','/proxy/api/v1/login'], login)
+app.use(['/api/v1/logout','/proxy/api/v1/logout'], logout)
+app.use(['/api/v1/properties','/proxy/api/v1/properties'], properties)
+app.use(['/api/v1/messages','/proxy/api/v1/messages'], messages)
+app.use(['/api/v1/areaProperties','/proxy/api/v1/areaProperties'], areaProperties)
 
 module.exports = app
 
