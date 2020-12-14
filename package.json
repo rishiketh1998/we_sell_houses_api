@@ -4,7 +4,7 @@
   "description": "we sell houses backend system ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "jest --watch --verbose --coverage --runInBand"
   },
   "repository": {
