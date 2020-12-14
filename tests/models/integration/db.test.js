@@ -1,3 +1,4 @@
+/*
 const connection = require('../../../helpers/connection.js')
 const propertiesModel = require('../../../models/properties.js')
 const usersModel = require('../../../models/users.js')
@@ -5,9 +6,9 @@ const messagesModel = require('../../../models/messages.js')
 
 describe('Integration tests to verify right data is inserted to the database',  () => {
 
-    /**
+    /!**
      * @description: creates connection to test database
-     */
+     *!/
     beforeEach(async () => {
         await connection()
     })
@@ -83,4 +84,4 @@ describe('Integration tests to verify right data is inserted to the database',  
         });
     });
 
-})
+})*/

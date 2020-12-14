@@ -1,11 +1,12 @@
+/*
 const propertiesModel = require('../../../models/properties.js')
 const connection = require('../../../helpers/connection.js')
 
 describe('Tests to verify Properties Model and Schema', () => {
 
-    /**
+    /!**
      * @description: creates connection to test database
-     */
+     *!/
     beforeEach(async () => {
         await connection()
     })
@@ -137,4 +138,4 @@ describe('Tests to verify Properties Model and Schema', () => {
             done()
         })
     });
-})
+})*/

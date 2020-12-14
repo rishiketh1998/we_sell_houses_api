@@ -1,3 +1,4 @@
+/*
 const request = require('supertest')
 const app = require('../../index.js')
 const usersCollection = require('../../models/users.js')
@@ -50,7 +51,7 @@ describe('Tests to verify login route',  () => {
                     "postalCode": "CV256NZ"
                 }
             } //valid data
-            await request(app).post(REGISTER_URL).send(registerData)//registering a user*/
+            await request(app).post(REGISTER_URL).send(registerData)//registering a user*!/
             const userDetails = {
                 email: 'nice@gmail.com',
                 password: 'Rishiketh1'
@@ -78,7 +79,7 @@ describe('Tests to verify login route',  () => {
                     "postalCode": "CV256NZ"
                 }
             } //valid data
-            await request(app).post(REGISTER_URL).send(registerData)//registering a user*/
+            await request(app).post(REGISTER_URL).send(registerData)//registering a user*!/
             const userDetails = {
                 email: 'nice@gmail.com',
                 password: 'Rishiketh1@'
@@ -91,4 +92,4 @@ describe('Tests to verify login route',  () => {
         });
     });
 
-});
+});*/

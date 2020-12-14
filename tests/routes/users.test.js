@@ -1,3 +1,4 @@
+/*
 const request = require('supertest')
 const app = require('../../index.js')
 const usersCollection = require('../../models/users.js')
@@ -245,4 +246,4 @@ describe('Tests to verify Users Route / Endpoint',  () => {
 
     })
 
-});
+});*/
