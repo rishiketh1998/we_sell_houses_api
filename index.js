@@ -25,5 +25,9 @@ app.use('/api/v1/properties', properties)
 app.use('/api/v1/messages', messages)
 app.use('/api/v1/areaProperties', areaProperties)
 
+app.get('/', () => {
+    res.send('We Sell Houses Backend')
+})
+
 module.exports = app
 
