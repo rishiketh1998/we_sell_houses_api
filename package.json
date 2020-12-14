@@ -1,0 +1,41 @@
+{
+  "name": "we-sell-houses-backend",
+  "version": "1.0.0",
+  "description": "we sell houses backend system ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --watch --verbose --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.coventry.ac.uk/304CEM-2021SEPJAN/We-Sell-Houses-Backend.git"
+  },
+  "author": "Rishiketh",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^26.5.3",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.5.3",
+    "joi": "^17.2.1",
+    "joi-password-complexity": "^4.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^5.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "./tests/models",
+      "./node_modules/"
+    ]
+  }
+}
